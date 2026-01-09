@@ -309,6 +309,7 @@ footer{
    background-color: #001931;
    padding-bottom: 50px;
    max-width: 1600px;
+   margin: 0 auto;
 }
 
 footer .footer_bar{
