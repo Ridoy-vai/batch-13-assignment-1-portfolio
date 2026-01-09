@@ -20,6 +20,7 @@ body{
 
 #navigation_bar .nav_logo{
     margin-left: 120px;
+    cursor: pointer;
 }
 
 #navigation_bar .nav_list ul{
@@ -35,6 +36,11 @@ body{
     font-weight: 500;
     padding: 15px;
 }
+
+#navigation_bar .nav_list ul a:hover{
+    background-color: #469165;
+    border-radius: 25px;
+}
 #navigation_bar button {
     padding: 13px 16px;
     color: #ffffff;
@@ -49,7 +55,7 @@ body{
 
 #navigation_bar button:hover{
     background-color: #627382;
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -88,8 +94,8 @@ body{
 }
 #header_section .headerbox button:hover{
     background-color: transparent;
-    color: black;
-    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
 }
 
 #header_section .headerbox h1 {
@@ -134,8 +140,9 @@ body{
 }
 
 #header_section .headerbox .header_btn_1:hover , #section_thiree .section_3_box button:hover{
-    background-color: #001931;
-    color: #30B868;
+    background-color: #d02dd0;
+    color: #ffffff;
+    border: none;
 }
 
 
@@ -164,6 +171,7 @@ body{
 #header_section .headerbox .header_btn_2:hover{
     background-color: darkblue;
     border: 1px solid darkblue;
+    color: #ffffff;
 }
 
 /* section  */
@@ -208,7 +216,7 @@ body{
 #section_one .section_card .card img{
     margin-top: 75px;
     border-radius: 50px;
-    background-color: red;
+    background-color: #F95555;
     padding: 10px;
 }
 #section_one .section_card .card h3{
@@ -302,13 +310,15 @@ footer .footer_bar{
     padding-top: 110px;
 }
 
-footer .footer_bar img{
+footer .footer_bar .Social img{
     width: 30px;
-    gap: 10px;
+    gap: 30px;
+    cursor: pointer;
 
 }
 footer .footer_bar .footer_logo{
     width: 100%;
+    cursor: pointer;
 }
 
 footer .footer_bar h3{
