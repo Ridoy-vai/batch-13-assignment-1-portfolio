@@ -308,6 +308,7 @@ body{
 footer{
    background-color: #001931;
    padding-bottom: 50px;
+   max-width: 1600px;
 }
 
 footer .footer_bar{
